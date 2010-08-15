@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  image_id: 1
+  description: MyText
+  mls_number: 1
+  featured: false
+  address: MyString
+
+two:
+  image_id: 1
+  description: MyText
+  mls_number: 1
+  featured: false
+  address: MyString

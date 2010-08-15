@@ -1,0 +1,28 @@
+<p>
+  <b>Image:</b>
+  <%=h @listing.image_id %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @listing.description %>
+</p>
+
+<p>
+  <b>Mls number:</b>
+  <%=h @listing.mls_number %>
+</p>
+
+<p>
+  <b>Featured:</b>
+  <%=h @listing.featured %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%=h @listing.address %>
+</p>
+
+
+<%= link_to 'Edit', edit_listing_path(@listing) %> |
+<%= link_to 'Back', listings_path %>

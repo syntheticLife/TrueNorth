@@ -1,0 +1,31 @@
+<h1>New listing</h1>
+
+<% form_for(@listing) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :image_id %><br />
+    <%= f.text_field :image_id %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </p>
+  <p>
+    <%= f.label :mls_number %><br />
+    <%= f.text_field :mls_number %>
+  </p>
+  <p>
+    <%= f.label :featured %><br />
+    <%= f.check_box :featured %>
+  </p>
+  <p>
+    <%= f.label :address %><br />
+    <%= f.text_field :address %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', listings_path %>
